@@ -1,9 +1,18 @@
-function sum(a, b) {
+function deduct(a, b) {
     let value1 = a;
-    let value2 = a;
-    let result = valueA + valueB;
+    let value2 = b;
+    let result = value1 - value2 ;
     return result;
 }
+
+function sum(a, b) {
+    let value1 = a;
+    let value2 = b;
+    let result = value1 + value2;
+    return result;
+}
+
+
 
 function max(a, b) {
     if (a > b) {
@@ -40,6 +49,7 @@ function arraySum(a, b)
 }
 
 
+console.log("deduct " + deduct(30, 20));
 console.log("sum: " + sum(30, 20));
 console.log("max: " + max(10, 13));
 console.log("factorial: " + factorial(3));
