@@ -7,8 +7,13 @@ function deduct(a, b) {
 
 function sum(a, b) {
     let value1 = a;
+<<<<<<< HEAD
     let value2 = b;
     let result = value1 + value2;
+=======
+    let value2 = bc;
+    let result = value11 + value22;
+>>>>>>> 3d370a99ec71816d251233c7db8a7b3344e57cf4
     return result;
 }
 
